@@ -1,0 +1,294 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Rayo Tech &mdash; Software de Alto Rendimiento</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="Rayo Tech &mdash; Transformamos ideas en software de alto rendimiento. Desarrollo web, apps m&oacute;viles, APIs y m&aacute;s." />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			/* WhatsApp Floating Button */
+			#whatsapp-fab {
+				position: fixed;
+				bottom: 2rem;
+				right: 2rem;
+				background: #25D366;
+				color: #fff;
+				border-radius: 50%;
+				width: 62px;
+				height: 62px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				font-size: 1.9rem;
+				z-index: 9999;
+				box-shadow: 0 4px 16px rgba(0,0,0,0.45);
+				text-decoration: none;
+				transition: transform 0.2s ease, box-shadow 0.2s ease;
+			}
+			#whatsapp-fab:hover {
+				transform: scale(1.12);
+				box-shadow: 0 6px 20px rgba(37,211,102,0.5);
+				color: #fff;
+				border-bottom: none;
+			}
+
+			/* Servicios scroll anchor */
+			#servicios { scroll-margin-top: 4rem; }
+
+			/* Hero subtitle */
+			#intro p { color: rgba(255,255,255,0.75); }
+
+			/* Lightning accent */
+			.rayo-icon { color: #00e5ff; margin-right: 0.3rem; }
+
+			/* Card and sobre nosotros text black */
+			.posts article p,
+			.posts article header h2,
+			.posts article header h2 a,
+			#sobre-nosotros p,
+			#sobre-nosotros .major h2,
+			.valor-item h4,
+			.valor-item p {
+				color: #000000;
+			}
+
+			/* Service card icons */
+			.servicio-icon {
+				display: block;
+				text-align: center;
+				font-size: 3rem;
+				color: #00e5ff;
+				margin-bottom: 1rem;
+			}
+
+
+			/* Valores grid */
+			.valores-grid {
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+				gap: 1.5rem;
+				margin-top: 2rem;
+			}
+			.valor-item {
+				background: rgba(255,255,255,0.04);
+				border: 1px solid rgba(255,255,255,0.08);
+				border-radius: 4px;
+				padding: 1.5rem;
+				text-align: center;
+			}
+			.valor-item .valor-ico {
+				font-size: 2rem;
+				color: #00e5ff;
+				display: block;
+				margin-bottom: 0.75rem;
+			}
+			.valor-item h4 {
+				margin-bottom: 0.4rem;
+				font-size: 0.9rem;
+				text-transform: uppercase;
+				letter-spacing: 0.1em;
+				text-align: center;
+			}
+			.valor-item p {
+				font-size: 0.82rem;
+				color: rgba(255,255,255,0.5);
+				margin: 0;
+				line-height: 1.5;
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+		<div id="wrapper" class="fade-in">
+
+			<!-- Intro / Hero -->
+			<div id="intro">
+				<h1><i class="fas fa-bolt rayo-icon"></i>Rayo Tech</h1>
+				<p>Transformamos ideas en software de alto rendimiento.<br />
+				Desarrollo web, apps m&oacute;viles, APIs y consultor&iacute;a tecnol&oacute;gica.</p>
+				<ul class="actions">
+					<li><a href="#servicios" class="button icon solid solo fa-arrow-down scrolly">Nuestros Servicios</a></li>
+				</ul>
+			</div>
+
+			<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="logo"><i class="fas fa-bolt"></i> Rayo Tech</a>
+			</header>
+
+			<!-- Nav -->
+			<nav id="nav">
+				<ul class="links">
+					<li class="active"><a href="#servicios" class="scrolly">Servicios</a></li>
+					<li><a href="#sobre-nosotros" class="scrolly">Nosotros</a></li>
+					<li><a href="#footer" class="scrolly">Contacto</a></li>
+				</ul>
+				<ul class="icons">
+					<li><a href="https://linkedin.com" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+					<li><a href="https://github.com" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="https://wa.me/15550000000" class="icon brands fa-whatsapp"><span class="label">WhatsApp</span></a></li>
+				</ul>
+			</nav>
+
+			<!-- Main -->
+			<div id="main">
+
+				<!-- Servicio destacado -->
+				<article id="servicios" class="post featured">
+					<header class="major">
+						<span class="date"><i class="fas fa-bolt rayo-icon"></i> Lo que hacemos</span>
+						<h2>Soluciones de software<br />que impulsan tu negocio</h2>
+						<p>En Rayo Tech dise&ntilde;amos y desarrollamos productos digitales con tecnolog&iacute;a de punta.
+						Trabajamos contigo desde la idea hasta el lanzamiento y m&aacute;s all&aacute;.</p>
+					</header>
+					<a href="#footer" class="image main scrolly"><img src="images/pic01.jpg" alt="Rayo Tech &mdash; desarrollo de software" /></a>
+					<ul class="actions special">
+						<li><a href="#footer" class="button large scrolly">Hablemos de tu proyecto</a></li>
+					</ul>
+				</article>
+
+				<!-- Grid de servicios -->
+				<section class="posts">
+
+					<article>
+						<span class="servicio-icon"><i class="fas fa-globe"></i></span>
+						<header>
+							<h2>Desarrollo Web</h2>
+						</header>
+						<p>Aplicaciones web modernas, r&aacute;pidas y escalables. Desde landing pages hasta plataformas SaaS completas con React, Vue, Next.js y backends robustos.</p>
+						<ul class="actions special">
+							<li><a href="#footer" class="button scrolly">Contáctanos</a></li>
+						</ul>
+					</article>
+
+					<article>
+						<span class="servicio-icon"><i class="fas fa-cogs"></i></span>
+						<header>
+							<h2>Software a Medida</h2>
+						</header>
+						<p>Soluciones 100% personalizadas para tu empresa: automatizaci&oacute;n de procesos, sistemas ERP, CRM y herramientas internas que optimizan tu operaci&oacute;n.</p>
+						<ul class="actions special">
+							<li><a href="#footer" class="button scrolly">Contáctanos</a></li>
+						</ul>
+					</article>
+
+				</section>
+
+				<!-- Sobre Nosotros -->
+				<article id="sobre-nosotros">
+					<header class="major">
+						<span class="date"><i class="fas fa-bolt rayo-icon"></i> Qui&eacute;nes somos</span>
+						<h2>Construimos el futuro<br />con c&oacute;digo de calidad</h2>
+					</header>
+					<p>Rayo Tech es una empresa de desarrollo de software con una misi&oacute;n clara: entregar soluciones tecnol&oacute;gicas r&aacute;pidas, confiables y escalables que generen impacto real en los negocios de nuestros clientes. Nuestro equipo est&aacute; formado por ingenieros apasionados, dise&ntilde;adores creativos y estrategas digitales con experiencia en startups y grandes empresas.</p>
+					<p>Creemos que el buen software es aquel que resuelve problemas reales con elegancia. Por eso cada proyecto comienza con escucha activa, continua con planificaci&oacute;n rigurosa y termina con entrega puntual y soporte continuo.</p>
+
+					<div class="valores-grid">
+						<div class="valor-item">
+							<span class="valor-ico fas fa-bolt"></span>
+							<h4>Velocidad</h4>
+							<p>Entregamos r&aacute;pido sin sacrificar calidad</p>
+						</div>
+						<div class="valor-item">
+							<span class="valor-ico fas fa-shield-alt"></span>
+							<h4>Confiabilidad</h4>
+							<p>C&oacute;digo robusto y bien probado</p>
+						</div>
+						<div class="valor-item">
+							<span class="valor-ico fas fa-handshake"></span>
+							<h4>Transparencia</h4>
+							<p>Comunicaci&oacute;n clara en todo momento</p>
+						</div>
+						<div class="valor-item">
+							<span class="valor-ico fas fa-rocket"></span>
+							<h4>Innovaci&oacute;n</h4>
+							<p>Siempre explorando nuevas tecnolog&iacute;as</p>
+						</div>
+					</div>
+
+					<ul class="actions special" style="margin-top:2.5rem;">
+						<li><a href="#footer" class="button large scrolly">Trabajemos juntos</a></li>
+					</ul>
+				</article>
+
+			</div>
+
+			<!-- Footer / Contacto -->
+			<footer id="footer">
+				<section>
+					<h2>Hablemos de tu proyecto</h2>
+					<form method="post" action="#">
+						<div class="fields">
+							<div class="field">
+								<label for="name">Nombre</label>
+								<input type="text" name="name" id="name" placeholder="Tu nombre completo" />
+							</div>
+							<div class="field">
+								<label for="email">Email</label>
+								<input type="email" name="email" id="email" placeholder="tu@email.com" />
+							</div>
+							<div class="field">
+								<label for="message">Mensaje</label>
+								<textarea name="message" id="message" rows="3" placeholder="Cu&eacute;ntanos sobre tu proyecto..."></textarea>
+							</div>
+						</div>
+						<ul class="actions">
+							<li><input type="submit" value="Enviar mensaje" /></li>
+						</ul>
+					</form>
+				</section>
+				<section class="split contact">
+					<section class="alt">
+						<h3>Ubicaci&oacute;n</h3>
+						<p>Ciudad, Pa&iacute;s</p>
+					</section>
+					<section>
+						<h3>Tel&eacute;fono / WhatsApp</h3>
+						<p><a href="https://wa.me/15550000000">+1 (555) 000-0000</a></p>
+					</section>
+					<section>
+						<h3>Email</h3>
+						<p><a href="mailto:hola@rayotech.com">hola@rayotech.com</a></p>
+					</section>
+					<section>
+						<h3>Redes</h3>
+						<ul class="icons alt">
+							<li><a href="https://linkedin.com" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://wa.me/15550000000" class="icon brands alt fa-whatsapp"><span class="label">WhatsApp</span></a></li>
+						</ul>
+					</section>
+				</section>
+			</footer>
+
+			<!-- Copyright -->
+			<div id="copyright">
+				<ul>
+					<li>&copy; 2026 Rayo Tech. Todos los derechos reservados.</li>
+					<li>Dise&ntilde;o: <a href="https://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</div>
+
+		</div>
+
+		<!-- WhatsApp Floating Button -->
+		<a id="whatsapp-fab" href="https://wa.me/15550000000" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+			<i class="fab fa-whatsapp"></i>
+		</a>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
